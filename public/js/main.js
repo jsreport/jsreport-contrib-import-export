@@ -1,7 +1,7 @@
 ﻿define(["app", "marionette", "backbone", "core/view.base", "core/utils", "jquery"],
     function (app, Marionette, Backbone, ViewBase, Utils, $) {
 
-        var ExportView = new ViewBase.extend({
+        var ExportView = ViewBase.extend({
             tagName: "li",
             template: "export-toolbar",
         });
