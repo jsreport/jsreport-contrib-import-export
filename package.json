@@ -4,12 +4,12 @@
   "description": "jsreport extension allowing to export and import the report template.",
   "main": "jsreport.config.js",
   "devDependencies": {
-    "jsreport": "jsreport/jsreport",
-    "node.extend": "*",
-    "mongodb": "2.0.26",
-    "mocha": "*",
-    "should": "*",
-    "supertest": "*"
+    "jsreport": "0.6.0",
+    "node.extend": "1.1.3",
+    "grunt-mocha": "0.4.12",
+    "supertest": "0.15.0",
+    "mocha": "2.2.1",
+    "should": "5.2.0"
   },
   "author": {
     "name": "Jan Blaha",
@@ -28,8 +28,5 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:jsreport/jsreport-contrib-import-export.git"
-  },
-  "dependencies": {
-    "node.extend": "^1.0.10"
   }
 }

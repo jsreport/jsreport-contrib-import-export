@@ -1,9 +1,7 @@
 ﻿var describeReporting = require("jsreport").describeReporting,
-    importExport = require("../lib/import.export.js"),
     path = require("path"),
-    should = require("should"),
-    request = require("supertest");
-
+    request = require("supertest"),
+    should = require("should");
 
 describeReporting(path.join(__dirname, "../"), ["express", "templates", "jsreport-import-export"], function(reporter) {
     describe('import-export', function() {
