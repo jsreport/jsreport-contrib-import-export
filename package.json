@@ -1,6 +1,6 @@
 {
   "name": "jsreport-contrib-import-export",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "jsreport extension allowing to export and import the report template.",
   "main": "jsreport.config.js",
   "devDependencies": {
